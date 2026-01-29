@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import FLOAT16_SQRT2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sqrt-two@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-sqrt-two/tags). For example,
+
+```javascript
 import FLOAT16_SQRT2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sqrt-two@v0.1.0-esm/index.mjs';
 ```
 
@@ -72,7 +77,7 @@ var bool = ( FLOAT16_SQRT2 === 1.4140625 );
 <body>
 <script type="module">
 
-import FLOAT16_SQRT2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sqrt-two@v0.1.0-esm/index.mjs';
+import FLOAT16_SQRT2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sqrt-two@esm/index.mjs';
 
 console.log( FLOAT16_SQRT2 );
 // => 1.4140625
